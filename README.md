@@ -40,6 +40,10 @@ ai-coe/
     codex-instructions/
   apps/
     dashboard/
+  content/
+    README.md
+    ai-skills-and-ai-coe-ultimate-guide.md
+    claude-skills-operating-layer-blog.md
   examples/
     frankx-ai-coe/
     arcanea-ai-coe/
@@ -53,6 +57,11 @@ ai-coe/
 3. Define your core agents under `/agents` and map them to `/skills`.
 4. Compile agent/tool configs through `/config-compilers`.
 5. Use `/apps/dashboard` as the private control plane and expose approved outputs via public channels.
+
+## Publication-Ready Content
+
+- [The Ultimate Guide to Building AI Skills and an AI Center of Excellence](content/ai-skills-and-ai-coe-ultimate-guide.md)
+- [Claude Skills Are Not Just Prompts. They Are an Operating Layer for AI Teams.](content/claude-skills-operating-layer-blog.md)
 
 ## Design Principles
 
