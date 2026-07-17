@@ -4,10 +4,21 @@ This repo is part of the FrankX / Starlight / Arcanea agent estate.
 
 ## Classification
 
-- Repo: $title
-- Class: $Classification
-- Default health command: $HealthCommand
-- Remote: $Remote
+- Repo: ai-coe
+- Class: tooling
+- Default health command: `git status`
+- Remote: https://github.com/frankxai/ai-coe.git
+
+## What This Repo Is
+
+Reference implementation for running a "company of one" (or small team) AI-native operating
+model: multi-agent collaboration (Codex, Claude Code, Grok), governance-first design, a private
+execution dashboard plus public Vercel layer, and reusable templates/skills/config-compilers.
+Key dirs: `templates/` (company-of-one, creator-business, ai-agency, engineering-team,
+university-lab), `governance/` (ai-policy, mcp-trust-levels, data-boundaries), `agents/`
+(chief-of-staff, research/builder/growth/governance agents), `skills/`, `config-compilers/`
+(agents-md, claude-md, cursor-rules, codex-instructions generators), `apps/dashboard/`,
+`examples/` (frankx-ai-coe, arcanea-ai-coe, starlight-intelligence-system).
 
 ## Agent Rules
 
