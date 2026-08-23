@@ -11,14 +11,31 @@ This repo is part of the FrankX / Starlight / Arcanea agent estate.
 
 ## What This Repo Is
 
-Reference implementation for running a "company of one" (or small team) AI-native operating
-model: multi-agent collaboration (Codex, Claude Code, Grok), governance-first design, a private
-execution dashboard plus public Vercel layer, and reusable templates/skills/config-compilers.
-Key dirs: `templates/` (company-of-one, creator-business, ai-agency, engineering-team,
-university-lab), `governance/` (ai-policy, mcp-trust-levels, data-boundaries), `agents/`
-(chief-of-staff, research/builder/growth/governance agents), `skills/`, `config-compilers/`
-(agents-md, claude-md, cursor-rules, codex-instructions generators), `apps/dashboard/`,
-`examples/` (frankx-ai-coe, arcanea-ai-coe, starlight-intelligence-system).
+The organization-facing operating model for running Skills at a "company of one" (or small team):
+governance-first design, the six-loop Skill lifecycle (intake, design, build, review, deploy,
+monitor), and a plugin this repo *consumes* rather than reimplements.
+
+- `operating-model/` — the six loops, each mapped to a gate in
+  [`github.com/frankxai/ai-architect`](https://github.com/frankxai/ai-architect), plus
+  `intake-form.md` and `registry-fields.md`
+- `governance/` — `trust-tiers.md` (the reconciled T0–T3 scale), `mcp-trust-levels.md`
+  (superseded for tier assignment, kept for level definitions), `ai-policy.md`,
+  `data-boundaries.md`
+- `agents/` — this CoE's own operating roles (chief-of-staff, research, builder, growth,
+  governance) — a different roster from the `ai-architect` plugin's nine-stage architecture team
+- `templates/` — company-of-one, creator-business, ai-agency, engineering-team, university-lab,
+  and a local mirror of agent cards (canonical source:
+  [`starlight-agent-army-architecture`](https://github.com/frankxai/starlight-agent-army-architecture))
+- `vendor/ai-architect/` — vendored copies of the plugin's team and templates;
+  `scripts/sync-check.mjs` verifies they still match the live plugin repo
+- `.claude-plugin/marketplace.json` — lists the `ai-architect` plugin so
+  `/plugin marketplace add frankxai/ai-coe` finds it
+- `content/` — publication-ready guides this repo's operating model is drawn from
+
+There used to be `config-compilers/`, `apps/dashboard/`, `examples/`, and `skills/` directories
+here. They were removed 2026-08 as hollow scaffolding — READMEs describing a thing that was never
+built, teaching agents that an empty directory with a description is an acceptable deliverable.
+Rebuild any of them only with real content, not another aspirational README.
 
 ## Agent Rules
 
