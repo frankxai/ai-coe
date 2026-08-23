@@ -1,0 +1,19 @@
+{
+  "name": "frankx-coe",
+  "owner": {
+    "name": "Frank Riemer",
+    "url": "https://www.frankx.ai"
+  },
+  "description": "Frank Riemer's AI Center of Excellence marketplace: the ai-architect plugin this operating model consumes.",
+  "plugins": [
+    {
+      "name": "ai-architect",
+      "source": {
+        "source": "github",
+        "repo": "frankxai/ai-architect"
+      },
+      "description": "A gated AI-architecture lifecycle: /architect runs a nine-stage agent team that writes an evidence-backed artifact set into your repo. Runs on your keys, no hosted service.",
+      "category": "engineering"
+    }
+  ]
+}
