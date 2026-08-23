@@ -1,5 +1,10 @@
 # MCP Trust Levels
 
+> **Superseded for tier assignment** by [`trust-tiers.md`](trust-tiers.md), which maps these
+> levels onto the `ai-architect` field guide's T0–T3 provenance scale and the CoE's risk tiers.
+> This file still defines what each MCP level technically permits — start a new tool assignment
+> from `trust-tiers.md`, not from here.
+
 ## Level 0: Blocked
 No access to MCP tools.
 

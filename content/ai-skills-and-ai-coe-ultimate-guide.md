@@ -506,6 +506,11 @@ When quality declines, decide whether to update the description, revise instruct
 
 ## Risk Tiers for AI Skills
 
+> **Superseded for tier assignment** by [`governance/trust-tiers.md`](../governance/trust-tiers.md),
+> which maps these tiers onto the MCP trust levels and the `ai-architect` field guide's T0–T3
+> provenance scale. This section is kept as the published article text — the worked examples below
+> still apply.
+
 Not every Skill needs the same governance.
 
 Use a tiered model:
